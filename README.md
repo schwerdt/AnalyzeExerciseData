@@ -2,14 +2,17 @@ AnalyzeExerciseData
 ===================
 ## Purpose of this script
  The R script (run\_analysis.R) reads the data from the UCI HAR Dataset directory.
- It combines the datasets in the 'test' and 'training' directorys.  Then it extracts
+ It combines the datasets in the 'test' and 'training' directories.  It extracts
  the columns of the dataset that contain
  averages and standard deviations for particular measurements during the trial, along with 
  the corresponding Subject\_ID and Activity\_Name. 
  The mean for each subject's measurement is computed by taking all of the trials
  for a given activity for each subject (Ex. take the mean of measurements for
- subject 1 for all RUNNING\_UPSTAIRS trials).  It then prints these means to a 
- file.  There are 180 rows of data (30 subjects * 6 activities).
+ subject 1 for all RUNNING\_UPSTAIRS trials).  The means of all the standard 
+ deviations and means are printed to a file called TidyAverages.txt.  
+ There are 180 rows of data (30 subjects * 6 activities).  Each column
+ contains an average of the data type listed under Data about motion obtained
+ from phone.
 
 ##Data Source
 The directory UCI HAR Dataset directory must be in the directory from which the run\_analysis.R
