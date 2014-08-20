@@ -8,9 +8,19 @@ of the quantity listed at the top of each column.  The variables that are includ
 in the TidyAverages.txt output are listed in this file under 
 **Data about motion obtained from phone**. 
 
+##Activities performed during trials
+ WALKING
+ WALKING_UPSTAIRS
+ WALKING_DOWNSTAIRS
+ SITTING
+ STANDING
+ LAYING
+
+##Subjects
+There are 30 subjects in the dataset.
 
 ##Columns in the dataset:
-"Subject\_ID"   - the subject's identification number
+"Subject\_ID"   - the subject identification number
 
 "Activity\_Name" - the activity being performed while data was collected
 
